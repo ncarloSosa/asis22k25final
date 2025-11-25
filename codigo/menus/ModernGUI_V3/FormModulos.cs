@@ -36,8 +36,8 @@ namespace Interfac_V3
 
         private void btnSeguridad_Click(object sender, EventArgs e)
         {
-            //FormPrincipal forma = new FormPrincipal();
-            //forma.Show();
+            Capa_Vista_Seguridad.Frm_Login paciente = new Capa_Vista_Seguridad.Frm_Login();
+            paciente.ShowDialog();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
@@ -57,8 +57,8 @@ namespace Interfac_V3
 
         private void btnPropio_Click(object sender, EventArgs e)
         {
-            //FormPrincipal forma = new FormPrincipal();
-            //forma.Show();
+            Capa_Vista_Hoteleria.Frm_Splash paciente = new Capa_Vista_Hoteleria.Frm_Splash();
+            paciente.ShowDialog();
         }
     }
 }
